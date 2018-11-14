@@ -1,0 +1,19 @@
+{
+  "name": "user-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "starter.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongodb": "^2.2.19",
+    "pokedex-promise-v2": "^3.1.1"
+  }
+}
